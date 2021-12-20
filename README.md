@@ -1,2 +1,1 @@
-# shared-images
-# imagine
+sharing images the hard way

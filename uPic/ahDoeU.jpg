@@ -1,0 +1,1560 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<link rel="canonical" href="https://access.redhat.com/documentation/en-us/red_hat_insights/2022" />
+<link rel="shortlink" href="https://access.redhat.com/documentation/en-us/red_hat_insights/2022" />
+<meta property="og:site_name" content="Red Hat Customer Portal" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://access.redhat.com/documentation/en-us/red_hat_insights/2022" />
+<meta property="og:title" content="Product Documentation for Red Hat Insights 2022 | Red Hat Customer Portal" />
+<meta property="og:description" content="Access Red Hat’s knowledge, guidance, and support through your subscription." />
+<meta property="og:image" content="https://access.redhat.com/webassets/avalon/g/shadowman-200.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Access Red Hat’s knowledge, guidance, and support through your subscription." />
+<meta name="twitter:title" content="Product Documentation for Red Hat Insights 2022 | Red Hat Customer Portal" />
+<meta name="twitter:url" content="https://access.redhat.com/documentation/en-us/red_hat_insights/2022" />
+<meta name="twitter:image" content="https://access.redhat.com/webassets/avalon/g/shadowman-200.png" />
+<meta name="title" content="Product Documentation for Red Hat Insights 2022 | Red Hat Customer Portal" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="revision" product="e7ce95e9-f1dd-4aa6-a989-fca1d87ed196" />
+
+    <title>Product Documentation for Red Hat Insights 2022 | Red Hat Customer Portal</title>
+    <link rel="stylesheet" media="all" href="/sites/dxp-docs/files/css/css_9m8-tA3IQf8ThlLQYTTZUyEweCvyR908Tg0XCbKYOfY.css" />
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"documentation\/en-us\/red_hat_insights\/2022","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"red_hat_jwt":{"client_id":"customer-portal","cookie_name":"rh_jwt","leeway":"0","realm":"redhat-external","sso_host":"https:\/\/sso.redhat.com\/","user_integration":1,"user_plugin":"drupal_user_auth","use_external_js":0,"use_internal_js":0,"use_in_admin":0},"user":{"uid":0,"permissionsHash":"d8ea0bce2d740dacbdfe0257cf55baa0e33f7fb8468a26d055ce75daaaa2d315"}}</script>
+<script src="/sites/dxp-docs/files/js/js_OvM32wf1-Fy4X6DPWxWkrGGPi5e7Y7XTATmFmhctcP4.js"></script>
+
+    <!-- CP_PRIMER_HEAD -->
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!--[if IEMobile]><meta http-equiv="cleartype" content="on"><![endif]-->
+
+<!-- metaInclude -->
+<meta name="avalon-host-info" content="dxp-kbase-prod-39-7cd86d78f-6nq9f" />
+<meta name="avalon-version" content="4bb059f3" />
+<meta name="cp-chrome-build-date" content="2022-05-16T15:51:09.473Z" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#000000">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#000000">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+<link rel="manifest" href="https://access.redhat.com/webassets/avalon/j/manifest.json">
+<!-- Open Search - Tap to search -->
+<link rel="search" type="application/opensearchdescription+xml" title="Red Hat Customer Portal" href="https://access.redhat.com/webassets/avalon/j/opensearch.xml" />
+<!-- title -->
+<title>Red Hat Customer Portal - Access to 24x7 support and knowledge</title>
+<!-- /title -->
+<script type="text/javascript">
+    window.portal = {
+        analytics : {},
+        host      : "https://access.redhat.com",
+        idp_url   : "https://sso.redhat.com",
+        lang      : "en",  
+        version   : "4bb059f3",
+        builddate : "2022-05-16T15:51:09.473Z",
+        fetchdate : "2022-05-17T08:15:12-0400",
+        nrid      : "NOLONGERSUPPORTED",
+        nrlk      : "NOLONGERSUPPORTED"
+    };
+</script>
+<script type="text/javascript">
+    if (!/\/logout.*/.test(location.pathname) && portal.host === location.origin && document.cookie.indexOf('rh_sso_session') >= 0 && !(document.cookie.indexOf('rh_jwt') >= 0)) window.location = '/login?redirectTo=' + encodeURIComponent(window.location.href);
+</script>
+<!-- cssInclude -->
+
+<link rel="shortcut icon" href="https://access.redhat.com/webassets/avalon/g/favicon.ico" />
+
+<link media="all" rel="stylesheet" type="text/css" href="https://access.redhat.com/chrome_themes/nimbus/css/bootstrap.css?v=4bb059f3" />
+<link media="all" rel="stylesheet" type="text/css" href="https://access.redhat.com/chrome_themes/nimbus/css/bootstrap-grid.css?v=4bb059f3" />
+<link media="all" rel="stylesheet" type="text/css" href="https://access.redhat.com/chrome_themes/nimbus/css/main.css?v=4bb059f3" />
+<link media="all" rel="stylesheet" type="text/css" href="https://access.redhat.com/chrome_themes/nimbus/css/components.css?v=4bb059f3" />
+<link media="all" rel="stylesheet" type="text/css" href="https://access.redhat.com/chrome_themes/nimbus/css/pages.css?v=4bb059f3" />
+
+<link href="https://access.redhat.com/webassets/avalon/s/chosen.css?v=4bb059f3" rel="stylesheet" type="text/css" />
+
+<!--[if lte IE 9]>
+<link media="all" rel="stylesheet" type="text/css" href="https://access.redhat.com/chrome_themes/nimbus/css/ie.css" />
+<![endif]-->
+
+<noscript>
+    <style type="text/css" media="screen"> .primary-nav { display: block; } </style>
+</noscript>
+<link media="all" rel="stylesheet" type="text/css" href="https://access.redhat.com/webassets/avalon/j/public_modules/node_modules/@cpelements/pfe-navigation/dist/pfe-navigation--lightdom.min.css" />
+<!-- /cssInclude -->
+  <!-- TrustArc -->
+  <script src="//static.redhat.com/libs/redhat/marketing/latest/trustarc/trustarc.js"></script>
+
+
+<script src="https://access.redhat.com/webassets/avalon/j/public_modules/node_modules/@cpelements/pfe-navigation/dist/ie-polyfills.js?v=4bb059f3"></script>
+
+<script>
+    (function () {
+        if (!(window.doNotTrack == "1" || navigator.doNotTrack == "1" || navigator.msDoNotTrack == "1" || navigator.doNotTrack == "yes")) {
+            var s = document.createElement("script");
+            s.src="//www.redhat.com/dtm.js";
+            document.head.insertBefore(s, document.head.firstElementChild);
+        }
+    })();
+</script>
+
+<script type="text/javascript" src="https://access.redhat.com/webassets/avalon/j/lib/require.js?v=4bb059f3" data-main="/webassets/avalon/j/"></script>
+
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<script src="https://access.redhat.com/chrome_themes/nimbus/js/ie8.js"></script>
+<![endif]-->
+<script type="text/javascript" src="https://access.redhat.com/chrome_themes/nimbus/js/new-nav.js?v=4bb059f3" ></script>
+<!-- /CP_PRIMER_HEAD -->
+
+  </head>
+  <body>
+        <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+      <!-- CP_PRIMER_HEADER -->
+<div id="page-wrap" class="page-wrap">
+    <div id="pers-top-page-wrap" class="top-page-wrap pers-loader-bg">
+
+      <div id="hero-bg-top-left" class="summit-bg-shapes"></div>
+      <div id="hero-bg-top-right" class="summit-bg-shapes"></div>
+
+        <!--googleoff: all-->
+        <header class="masthead" id="masthead">
+
+            <a href="#pfe-navigation" id="global-skip-to-nav" class="skip-link visually-hidden">Skip to navigation</a>
+<a href="#cp-main" class="skip-link visually-hidden">Skip to main content</a>
+
+
+ <nav id="portal-utility-nav" class="utility-navigation utility-navigation--bar hidden-at-mobile" data-analytics-region="utility" aria-labelledby="nav__utility-nav--desktop">
+   <h3 id="nav__utility-nav--desktop" class="element-invisible">
+     Utilities
+   </h3>
+   <ul aria-labelledby="nav__utility-nav--desktop">
+     <li id="nav-subscription" data-portal-tour-1="1">
+       <a class="top-nav-subscriptions" data-analytics-level="2" data-analytics-category="Utilities" data-analytics-text="Subscription" href="https://access.redhat.com/management/" >
+         Subscriptions
+       </a>
+     </li>
+     <li id="nav-downloads" data-portal-tour-1="2">
+       <a class="top-nav-downloads" data-analytics-level="2" data-analytics-category="Utilities" data-analytics-text="Downloads" href="https://access.redhat.com/downloads/" >
+         Downloads
+       </a>
+     </li>
+     <li id="nav-containers">
+       <a class="top-nav-containers" data-analytics-level="2" data-analytics-category="Utilities" data-analytics-text="Containers" href="https://catalog.redhat.com/software/containers/explore/" >
+         Containers
+       </a>
+     </li>
+     <li id="nav-support" data-portal-tour-1="3">
+       <a class="top-nav-support-cases" data-analytics-level="2" data-analytics-category="Utilities" data-analytics-text="Support Cases" href="https://access.redhat.com/support/cases/" >
+         Support Cases
+       </a>
+     </li>
+   </ul>
+</nav>
+
+<pfe-navigation id="pfe-navigation" data-analytics-region="mega menu">
+  <div class="pfe-navigation__logo-wrapper" id="pfe-navigation__logo-wrapper">
+    <a href="https://access.redhat.com/" class="pfe-navigation__logo-link" data-analytics-text="logo" data-analytics-category="MM|logo">
+      <img class="pfe-navigation__logo-image" alt="Red Hat Customer Portal" src="https://access.redhat.com/chrome_themes/nimbus/img/red-hat-customer-portal.svg" />
+    </a>
+  </div>
+
+  <nav class="pfe-navigation" aria-label="Main Navigation" data-analytics-region="main nav">
+    <ul class="pfe-navigation__menu" id="pfe-navigation__menu">
+
+             <li class="pfe-navigation__menu-item hidden-at-tablet hidden-at-desktop" id="nav-subscription--mobile" data-portal-tour-1="1">
+        <a class="pfe-navigation__menu-link" data-analytics-level="1" data-analytics-text="Subscription" href="https://access.redhat.com/management/" >
+          Subscriptions
+        </a>
+      </li>
+      <li class="pfe-navigation__menu-item hidden-at-tablet hidden-at-desktop" id="nav-downloads--mobile" data-portal-tour-1="2">
+        <a class="pfe-navigation__menu-link" data-analytics-level="1" data-analytics-text="Downloads" href="https://access.redhat.com/downloads/" >
+          Downloads
+        </a>
+      </li>
+      <li class="pfe-navigation__menu-item hidden-at-tablet hidden-at-desktop" id="nav-containers--mobile">
+        <a class="pfe-navigation__menu-link" data-analytics-level="1" data-analytics-text="Containers" href="https://catalog.redhat.com/software/containers/explore/" >
+          Containers
+        </a>
+      </li>
+      <li class="pfe-navigation__menu-item hidden-at-tablet hidden-at-desktop" id="nav-support--mobile" data-portal-tour-1="3">
+        <a class="pfe-navigation__menu-link" data-analytics-level="1" data-analytics-text="Support Cases" href="https://access.redhat.com/support/cases/" >
+          Support Cases
+        </a>
+      </li>
+
+            <li class="pfe-navigation__menu-item">
+        <a href="https://access.redhat.com/products/" class="pfe-navigation__menu-link" data-analytics-level="1" data-analytics-text="Products and Services">
+          Products &amp; Services
+        </a>
+        <div class="pfe-navigation__dropdown has-primary-detail">
+                    <div class="desktop-col-span-2 tablet-col-span-all">
+            <h3>
+              <a data-analytics-level="2" data-analytics-category="Products and Services" data-analytics-text="Products" href="https://access.redhat.com/products/">
+                Products
+              </a>
+            </h3>
+            <slot name="main-menu__dropdown--product__product-listing"></slot>
+          </div>
+                    <div>
+            <h3 id="nav__products__support">
+              <a data-analytics-level="2" data-analytics-category="Products and Services" data-analytics-text="Support" href="https://access.redhat.com/support">
+                Support
+              </a>
+            </h3>
+            <ul aria-labelledby="nav__products__support">
+              <li><a data-analytics-level="3" data-analytics-category="Products and Services|Support" data-analytics-text="Production Support" href="https://access.redhat.com/support/offerings/production/">
+                Production Support
+              </a></li>
+              <li><a data-analytics-level="3" data-analytics-category="Products and Services|Support" data-analytics-text="Development Support" href="https://access.redhat.com/support/offerings/developer/">
+                Development Support
+              </a></li>
+              <li><a data-analytics-level="3" data-analytics-category="Products and Services|Support" data-analytics-text="Product Life Cycles" href="https://access.redhat.com/product-life-cycles/">
+                Product Life Cycles
+              </a></li>
+            </ul>
+
+            <h3 id="nav__products__services">
+              <a data-analytics-level="2" data-analytics-category="Products and Services" data-analytics-text="Services" href="https://www.redhat.com/en/services">
+                Services
+              </a>
+            </h3>
+            <ul aria-labelledby="nav__products__services">
+              <li><a data-analytics-level="3" data-analytics-category="Products and Services|Services" data-analytics-text="Consulting" href="https://www.redhat.com/en/services/consulting">
+                Consulting
+              </a></li>
+              <li><a data-analytics-level="3" data-analytics-category="Products and Services|Services" data-analytics-text="Technical Account Management" href="https://access.redhat.com/support/offerings/tam/">
+                Technical Account Management
+              </a></li>
+              <li><a data-analytics-level="3" data-analytics-category="Products and Services|Services" data-analytics-text="Training and Certifications" href="https://www.redhat.com/en/services/training-and-certification">
+                Training &amp; Certifications
+              </a></li>
+            </ul>
+          </div>
+
+                    <div>
+            <h3 id="nav__products__documentation">
+              <a data-analytics-level="2" data-analytics-category="Products and Services" data-analytics-text="Documentation" href="https://access.redhat.com/documentation">
+                Documentation
+              </a>
+            </h3>
+            <ul aria-labelledby="nav__products__documentation">
+              <li><a data-analytics-level="3" data-analytics-category="Products and Services|Documentation" data-analytics-text="Red Hat Enterprise Linux" href="https://access.redhat.com/documentation/en/red_hat_enterprise_linux">
+                Red Hat Enterprise Linux
+              </a></li>
+              <li><a data-analytics-level="3" data-analytics-category="Products and Services|Documentation" data-analytics-text="Red Hat JBoss Enterprise Application Platform" href="https://access.redhat.com/documentation/en/red_hat_jboss_enterprise_application_platform">
+                Red Hat JBoss Enterprise Application Platform
+              </a></li>
+              <li><a data-analytics-level="3" data-analytics-category="Products and Services|Documentation" data-analytics-text="Red Hat OpenStack Platform" href="https://access.redhat.com/documentation/en/red_hat_openstack_platform">
+                Red Hat OpenStack Platform
+              </a></li>
+              <li><a data-analytics-level="3" data-analytics-category="Products and Services|Documentation" data-analytics-text="Red Hat OpenShift Container Platform" href="https://access.redhat.com/documentation/en/openshift_container_platform">
+                Red Hat OpenShift Container Platform
+              </a></li>
+            </ul>
+            <pfe-cta>
+              <a data-analytics-level="3" data-analytics-category="Products and Services|Documentation" data-analytics-text="All Documentation" data-analytics-linkType="cta" href="https://access.redhat.com/documentation">
+                All Documentation
+              </a>
+            </pfe-cta>
+
+            <h3 id="nav__products__catalog"><a data-analytics-level="2" data-analytics-category="Products and Services" data-analytics-text="Ecosystem Catalog" href="https://catalog.redhat.com/">
+              Ecosystem Catalog
+            </a></h3>
+            <ul aria-labelledby="nav__products__catalog">
+              <li><a data-analytics-level="3" data-analytics-category="Products and Services|Ecosystem Catalog" data-analytics-text="Red Hat Partner Ecosystem" href="https://access.redhat.com/ecosystem/">
+                Red Hat Partner Ecosystem
+              </a></li>
+              <li><a data-analytics-level="3" data-analytics-category="Products and Services|Ecosystem Catalog" data-analytics-text="Partner Resources" href="https://access.redhat.com/ecosystem/partner-resources">
+                Partner Resources
+              </a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+
+            <li class="pfe-navigation__menu-item">
+        <a class="pfe-navigation__menu-link" data-analytics-level="1" data-analytics-text="Tools" href="https://access.redhat.com/labs/">
+          Tools
+        </a>
+        <div class="pfe-navigation__dropdown pfe-navigation__dropdown--3-column">
+                    <div>
+            <h3 id="nav__tools__tools" data-analytics-level="2" data-analytics-text="Tools" data-analytics-category="Tools">
+              Tools
+            </h3>
+            <ul aria-labelledby="nav__tools__tools">
+                <li><a data-analytics-level="3" data-analytics-category="Tools|Tools" data-analytics-text="Solution Engine" href="https://access.redhat.com/support/cases/#/troubleshoot">
+                  Troubleshoot a product issue
+                </a></li>
+                <li><a data-analytics-level="3" data-analytics-category="Tools|Tools" data-analytics-text="Packages" href="https://access.redhat.com/downloads/content/package-browser">
+                  Packages
+                </a></li>
+                <li><a data-analytics-level="3" data-analytics-category="Tools|Tools" data-analytics-text="Errata" href="https://access.redhat.com/errata/">
+                  Errata
+                </a></li>
+            </ul>
+          </div>
+
+                    <div>
+            <h3 id="nav__tools__labs">
+              <a data-analytics-level="2" data-analytics-category="Tools" data-analytics-text="Customer Portal Labs" href="https://access.redhat.com/labs/">
+                Customer Portal Labs
+              </a>
+            </h3>
+            <ul aria-labelledby="nav__tools__labs">
+              <li><a data-analytics-level="3" data-analytics-category="Tools|Customer Portal Labs" data-analytics-text="Configuration" href="https://access.redhat.com/labs/#!?type=config">
+                Configuration
+              </a></li>
+              <li><a data-analytics-level="3" data-analytics-category="Tools|Customer Portal Labs" data-analytics-text="Deployment" href="https://access.redhat.com/labs/#!?type=deploy">
+                Deployment
+              </a></li>
+              <li><a data-analytics-level="3" data-analytics-category="Tools|Customer Portal Labs" data-analytics-text="Security" href="https://access.redhat.com/labs/#!?type=security">
+                Security
+              </a></li>
+                            <li><a data-analytics-level="3" data-analytics-category="Tools|Customer Portal Labs" data-analytics-text="Troubleshooting" href="https://access.redhat.com/labs/#!?type=troubleshoot">
+                Troubleshoot
+              </a></li>
+            </ul>
+            <pfe-cta>
+              <a data-analytics-level="3" data-analytics-category="Tools|Customer Portal Labs" data-analytics-text="All Labs" data-analytics-linkType="cta" href="https://access.redhat.com/labs/">
+                All labs
+              </a>
+            </pfe-cta>
+          </div>
+
+                    <div>
+            <h4 id="nav__tools__red-hat-insights">
+              <a data-analytics-level="2" data-analytics-category="Tools" data-analytics-text="Red Hat Insights" href="//www.redhat.com/en/technologies/management/insights">
+                Red Hat Insights
+              </a>
+            </h4>
+            <p>Increase visibility into IT operations to detect and resolve technical issues before they impact your business.</p>
+            <a data-analytics-level="3" data-analytics-category="Tools|Red Hat Insights" data-analytics-text="Learn more" href="https://www.redhat.com/en/technologies/management/insights">
+              Learn More
+            </a>
+            <br>
+            <a data-analytics-level="3" data-analytics-category="Tools|Red Hat Insights" data-analytics-text="Go to Insights" href="https://cloud.redhat.com/insights">
+              Go to Insights
+            </a>
+          </div>
+        </div>
+      </li>
+
+            <li class="pfe-navigation__menu-item">
+        <a class="pfe-navigation__menu-link" data-analytics-level="1" data-analytics-text="Security" href="https://access.redhat.com/security/">
+          Security
+        </a>
+        <div class="pfe-navigation__dropdown pfe-navigation__dropdown--3-column">
+                    <div>
+            <h3 id="security__security-center">
+              <a data-analytics-level="2" data-analytics-category="Security" data-analytics-text="Red Hat Product Security Center" href="https://access.redhat.com/security">
+                Red Hat Product Security Center
+              </a>
+            </h3>
+            <p>
+              Engage with our Red Hat Product Security team, access security updates, and ensure your environments are not exposed to any known security vulnerabilities.
+            </p>
+            <pfe-cta pfe-priority="primary">
+              <a data-analytics-level="3" data-analytics-category="Security|Red Hat Product Security Center" data-analytics-text="Product Security Center" data-analytics-linkType="cta" href="https://access.redhat.com/security/">
+                Product Security Center
+              </a>
+            </pfe-cta>
+          </div>
+                    <div>
+            <h3 id="nav__security__updates" data-analytics-level="2" data-analytics-text="Security Updates" data-analytics-category="Security">
+              <a data-analytics-level="2" data-analytics-category="Security" data-analytics-text="Security Updates" href="/security">
+                Security Updates
+              </a>
+            </h3>
+            <ul aria-labelledby="nav__security__updates">
+              <li><a data-analytics-level="3" data-analytics-category="Security|Security Updates" data-analytics-text="Security Advisories" href="https://access.redhat.com/security/security-updates/#/security-advisories">
+                Security Advisories
+              </a></li>
+              <li><a data-analytics-level="3" data-analytics-category="Security|Security Updates" data-analytics-text="Red Hat CVE Database" href="https://access.redhat.com/security/security-updates/#/cve">
+                Red Hat CVE Database
+              </a></li>
+              <li><a data-analytics-level="3" data-analytics-category="Security|Security Updates" data-analytics-text="Security Labs" href="https://access.redhat.com/security/security-updates/#/security-labs">
+                Security Labs
+              </a></li>
+            </ul>
+            <p class="margin-top-xl">
+              Keep your systems secure with Red Hat&#039;s specialized responses to security vulnerabilities.
+            </p>
+            <pfe-cta>
+              <a data-analytics-level="3" data-analytics-category="Security|Security Updates" data-analytics-text="View Responses" data-analytics-linkType="cta" href="https://access.redhat.com/security/vulnerability">
+                View Responses
+              </a>
+            </pfe-cta>
+          </div>
+
+                    <div>
+            <h3 id="nav__security__resources">
+              <a data-analytics-level="2" data-analytics-category="Security" data-analytics-text="Resources" href="https://access.redhat.com/security/overview">
+                Resources
+              </a>
+            </h3>
+            <ul aria-labelledby="nav__security__resources">
+                            <li><a data-analytics-level="3" data-analytics-category="Security|Resources" data-analytics-text="Security Blog" href="//redhat.com/en/blog/channel/security">
+                Security Blog
+              </a></li>
+              <li><a data-analytics-level="3" data-analytics-category="Security|Resources" data-analytics-text="Security Measurement" href="https://www.redhat.com/security/data/metrics/">
+                Security Measurement
+              </a></li>
+              <li><a data-analytics-level="3" data-analytics-category="Security|Resources" data-analytics-text="Severity Ratings" href="https://access.redhat.com/security/updates/classification/">
+                Severity Ratings
+              </a></li>
+              <li><a data-analytics-level="3" data-analytics-category="Security|Resources" data-analytics-text="Backporting Policies" href="https://access.redhat.com/security/updates/backporting/">
+                Backporting Policies
+              </a></li>
+              <li><a data-analytics-level="3" data-analytics-category="Security|Resources" data-analytics-text="Product Signing (GPG) Keys" href="https://access.redhat.com/security/team/key/">
+                Product Signing (GPG) Keys
+              </a></li>
+            </ul>
+          </div>
+
+        </div>
+      </li>
+
+            <li class="pfe-navigation__menu-item">
+        <a href="https://access.redhat.com/community/" class="pfe-navigation__menu-link" data-analytics-level="1" data-analytics-text="Community">
+          Community
+        </a>
+        <div class="pfe-navigation__dropdown pfe-navigation__dropdown--3-column">
+
+                    <div>
+            <h3 id="nav__community__cp-community">
+              <a href="https://access.redhat.com/community" data-analytics-level="2" data-analytics-text="Customer Portal Community" data-analytics-text="Customer Portal Community" data-analytics-category="Community">
+                Customer Portal Community
+              </a>
+            </h3>
+            <ul aria-labelledby="nav__community__cp-community">
+              <li><a data-analytics-level="3" data-analytics-category="Community|Customer Portal Community" data-analytics-text="Discussions" href="https://access.redhat.com/discussions">
+                Discussions
+              </a></li>
+                            <li><a data-analytics-level="3" data-analytics-category="Community|Customer Portal Community" data-analytics-text="Private Groups" href="https://access.redhat.com/groups/">
+                Private Groups
+              </a></li>
+            </ul>
+
+            <pfe-cta pfe-priority="primary">
+              <a data-analytics-level="3" data-analytics-category="Community|Customer Portal Community" data-analytics-text="Community Activity" data-analytics-linkType="cta" href="https://access.redhat.com/community/">
+                Community Activity
+              </a>
+            </pfe-cta>
+          </div>
+
+                    <div>
+            <h3 id="nav__community__events" data-analytics-level="2" data-analytics-text="Customer Events" data-analytics-category="Community">
+              Customer Events
+            </h3>
+            <ul aria-labelledby="nav__community__events">
+              <li><a data-analytics-level="3" data-analytics-category="Community|Customer Events" data-analytics-text="Red Hat Convergence" href="https://access.redhat.com/convergence/">
+                Red Hat Convergence
+              </a></li>
+              <li><a data-analytics-level="3" data-analytics-category="Community|Customer Events" data-analytics-text="Red Hat Summit" href="http://www.redhat.com/summit/">
+                Red Hat Summit
+              </a></li>
+            </ul>
+          </div>
+
+                    <div>
+            <h3 id="nav__community__stories" data-analytics-level="2" data-analytics-text="Stories" data-analytics-category="Community">
+              Stories
+            </h3>
+            <ul aria-labelledby="nav__community__stories">
+              <li><a data-analytics-level="3" data-analytics-category="Community|Stories" data-analytics-text="Red Hat Subscription Value" href="https://access.redhat.com/subscription-value/">
+                Red Hat Subscription Value
+              </a></li>
+              <li><a data-analytics-level="3" data-analytics-text="You Asked. We Acted." data-analytics-category="Community|Stories" href="https://access.redhat.com/you-asked-we-acted/">
+                You Asked. We Acted.
+              </a></li>
+              <li><a data-analytics-level="3" data-analytics-category="Community|Stories" data-analytics-text="Open Source Communities" href="http://www.redhat.com/en/open-source">
+                Open Source Communities
+              </a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+
+
+        </nav>
+
+    <div id="site-search" slot="search" class="utility-link site-search">
+    <div class="content">
+      <form class="ng-pristine ng-valid topSearchForm" id="topSearchForm" name="topSearchForm" action="/search/browse/search/" method="get" enctype="application/x-www-form-urlencoded">
+        <cp-search-autocomplete class="push-bottom" path="/webassets/avalon/j/data.json"></cp-search-autocomplete>
+                <div>
+          Or <a href="/support/cases/#/troubleshoot">troubleshoot an issue</a>.
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <div slot="secondary-links" id="localesMenu">
+    <button class="pfe-navigation__secondary-link">
+      <pfe-icon icon="web-icon-globe" size="sm" aria-hidden="true"></pfe-icon>
+      English
+    </button>
+
+    <pfe-navigation-dropdown dropdown-width="single">
+      <h2 class="utility-header">
+        Select Your Language
+      </h2>
+      <ul class="reset">
+        <li><a href="https://access.redhat.com/changeLanguage?language=en" data-lang="en" id="en" data-analytics-text="English">English</a></li>
+        <li><a href="https://access.redhat.com/changeLanguage?language=ko" data-lang="ko" id="ko" data-analytics-text="Korean">한국어</a></li>
+        <li><a href="https://access.redhat.com/changeLanguage?language=ja"    data-lang="ja"    id="ja" data-analytics-text="Japanese">日本語</a></li>
+        <li><a href="https://access.redhat.com/changeLanguage?language=zh_CN" data-lang="zh_CN" id="zh_CN" data-analytics-text="Chinese">中文 (中国)</a></li>
+      </ul>
+
+    </pfe-navigation-dropdown>
+  </div>
+
+    <rh-account-dropdown slot="account"></rh-account-dropdown>
+
+    <pfe-primary-detail breakpoint-width="600" class="main-menu__dropdown--product__product-listing" slot="main-menu__dropdown--product__product-listing" consistent-height>
+    <h3 slot="details-nav">
+              Infrastructure and Management
+          </h3>
+    <div slot="details">
+      <ul>
+          <li>
+              <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Infrastructure and Management" data-analytics-text="Red Hat Enterprise Linux" href="https://access.redhat.com/products/red-hat-enterprise-linux/">
+                Red Hat Enterprise Linux
+              </a>
+          </li>
+          <li>
+              <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Infrastructure and Management" data-analytics-text="Red Hat Virtualization" href="https://access.redhat.com/products/red-hat-virtualization/">
+                Red Hat Virtualization
+              </a>
+          </li>
+          <li>
+              <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Infrastructure and Management" data-analytics-text="Red Hat Identity Management" href="https://access.redhat.com/products/identity-management/">
+                Red Hat Identity Management
+              </a>
+          </li>
+          <li>
+              <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Infrastructure and Management" data-analytics-text="Red Hat Directory Server" href="https://access.redhat.com/products/red-hat-directory-server/">
+                Red Hat Directory Server
+              </a>
+          </li>
+          <li>
+              <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Infrastructure and Management" data-analytics-text="Red Hat Certificate System" href="https://access.redhat.com/products/red-hat-certificate-system/">
+                Red Hat Certificate System
+              </a>
+          </li>
+          <li>
+              <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Infrastructure and Management" data-analytics-text="Red Hat Satellite" href="https://access.redhat.com/products/red-hat-satellite/">
+                Red Hat Satellite
+              </a>
+          </li>
+          <li>
+              <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Infrastructure and Management" data-analytics-text="Red Hat Subscription Management" href="https://access.redhat.com/products/red-hat-subscription-management/">
+                Red Hat Subscription Management
+              </a>
+          </li>
+          <li>
+              <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Infrastructure and Management" data-analytics-text="Red Hat Update Infrastructure" href="https://access.redhat.com/products/red-hat-update-infrastructure/">
+                Red Hat Update Infrastructure
+              </a>
+          </li>
+          <li>
+              <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Infrastructure and Management" data-analytics-text="Red Hat Insights" href="https://access.redhat.com/products/red-hat-insights/">
+                Red Hat Insights
+              </a>
+          </li>
+        <li><a data-analytics-level="3" data-analytics-category="Products and Services|Products:Infrastructure and Management" data-analytics-text="Red Hat Ansible Automation Platform" href="https://access.redhat.com/products/red-hat-ansible-automation-platform/">
+          Red Hat Ansible Automation Platform
+        </a></li>
+      </ul>
+    </div>
+
+    <h3 slot="details-nav">
+              Cloud Computing
+          </h3>
+    <div slot="details">
+      <ul>
+        <li>
+          <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Cloud Computing" data-analytics-text="Red Hat OpenShift" href="https://access.redhat.com/products/openshift">
+            Red Hat OpenShift
+          </a>
+        </li>
+        <li>
+          <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Cloud Computing" data-analytics-text="Red Hat CloudForms" href="https://access.redhat.com/products/red-hat-cloudforms/">
+            Red Hat CloudForms
+          </a>
+        </li>
+        <li>
+          <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Cloud Computing" data-analytics-text="Red Hat OpenStack Platform" href="https://access.redhat.com/products/red-hat-openstack-platform/">
+            Red Hat OpenStack Platform
+          </a>
+        </li>
+        <li>
+          <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Cloud Computing Platform" data-analytics-text="Red Hat OpenShift Container Platform" href="https://access.redhat.com/products/red-hat-openshift-container-platform/">
+            Red Hat OpenShift Container Platform
+          </a>
+        </li>
+        <li>
+          <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Cloud Computing Platform" data-analytics-text="Red Hat OpenShift Data Science" href="https://access.redhat.com/products/red-hat-openshift-data-science/">
+            Red Hat OpenShift Data Science
+          </a>
+        </li>
+        <li>
+          <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Cloud Computing" data-analytics-text="Red Hat OpenShift Online" href="https://access.redhat.com/products/openshift-online-red-hat/">
+            Red Hat OpenShift Online
+          </a>
+        </li>
+        <li>
+          <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Cloud Computing" data-analytics-text="Red Hat OpenShift Dedicated" href="https://access.redhat.com/products/openshift-dedicated-red-hat/">
+            Red Hat OpenShift Dedicated
+          </a>
+        </li>
+        <li>
+            <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Cloud Computing Platform" data-analytics-text="Red Hat Advanced Cluster Security for Kubernetes" href="https://access.redhat.com/products/red-hat-advanced-cluster-security-for-kubernetes/">
+                Red Hat Advanced Cluster Security for Kubernetes
+            </a>
+        </li>
+        <li>
+          <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Cloud Computing" data-analytics-text="Red Hat Advanced Cluster Management for Kubernetes" href="https://access.redhat.com/products/red-hat-advanced-cluster-management-for-kubernetes/">
+            Red Hat Advanced Cluster Management for Kubernetes
+          </a>
+        </li>
+        <li>
+          <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Cloud Computing" data-analytics-text="Red Hat Quay" href="https://access.redhat.com/products/red-hat-quay/">
+            Red Hat Quay
+          </a>
+        </li>
+        <li>
+          <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Cloud Computing" data-analytics-text="Red Hat CodeReady Workspaces" href="https://access.redhat.com/products/red-hat-codeready-workspaces/">
+            Red Hat CodeReady Workspaces
+          </a>
+        </li>
+        <li>
+          <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Cloud Computing" data-analytics-text="Red Hat OpenShift Service on AWS" href="https://access.redhat.com/products/red-hat-openshift-service-aws">
+            Red Hat OpenShift Service on AWS
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <h3 slot="details-nav">
+              Storage
+          </h3>
+    <div slot="details">
+      <ul>
+        <li>
+            <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Storage" data-analytics-text="Red Hat Gluster Storage" href="https://access.redhat.com/products/red-hat-storage/">
+              Red Hat Gluster Storage
+            </a>
+        </li>
+        <li>
+            <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Storage" data-analytics-text="Red Hat Hyperconverged Infrastructure" href="https://access.redhat.com/products/red-hat-hyperconverged-infrastructure/">
+              Red Hat Hyperconverged Infrastructure
+            </a>
+        </li>
+        <li>
+            <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Storage" data-analytics-text="Red Hat Ceph Storage" href="https://access.redhat.com/products/red-hat-ceph-storage/">
+              Red Hat Ceph Storage
+            </a>
+        </li>
+        <li>
+          <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Storage" data-analytics-text="Red Hat Openshift Container Storage" href="https://access.redhat.com/products/red-hat-openshift-data-foundation">
+            Red Hat OpenShift Data Foundation
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <h3 slot="details-nav">
+              Runtimes
+          </h3>
+    <div slot="details">
+      <ul>
+        <li>
+            <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Runtimes" data-analytics-text="Red Hat Runtimes" href="https://access.redhat.com/products/red-hat-runtimes/">
+              Red Hat Runtimes
+            </a>
+        </li>
+        <li>
+            <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Runtimes" data-analytics-text="Red Hat JBoss Enterprise Application Platform" href="https://access.redhat.com/products/red-hat-jboss-enterprise-application-platform/">
+              Red Hat JBoss Enterprise Application Platform
+            </a>
+        </li>
+        <li>
+            <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Runtimes" data-analytics-text="Red Hat Data Grid" href="https://access.redhat.com/products/red-hat-data-grid/">
+              Red Hat Data Grid
+            </a>
+        </li>
+        <li>
+            <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Runtimes" data-analytics-text="Red Hat JBoss Web Server" href="https://access.redhat.com/products/red-hat-jboss-web-server/">
+              Red Hat JBoss Web Server
+            </a>
+        </li>
+        <li>
+            <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Runtimes" data-analytics-text="Red Hat Single Sign On" href="https://access.redhat.com/products/red-hat-single-sign-on/">
+              Red Hat Single Sign On
+            </a>
+        </li>
+        <li>
+            <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Runtimes" data-analytics-text="Red Hat support for Spring Boot" href="https://access.redhat.com/products/spring-boot/">
+              Red Hat support for Spring Boot
+            </a>
+        </li>
+        <li>
+            <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Runtimes" data-analytics-text="Red Hat build of Node.js" href="https://access.redhat.com/products/nodejs/">
+              Red Hat build of Node.js
+            </a>
+        </li>
+        <li>
+            <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Runtimes" data-analytics-text="Red Hat build of Thorntail" href="https://access.redhat.com/products/thorntail/">
+              Red Hat build of Thorntail
+            </a>
+        </li>
+        <li>
+            <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Runtimes" data-analytics-text="Red Hat build of Eclipse Vert.x" href="https://access.redhat.com/products/eclipse-vertx/">
+              Red Hat build of Eclipse Vert.x
+            </a>
+        </li>
+        <li>
+            <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Runtimes" data-analytics-text="Red Hat build of OpenJDK" href="https://access.redhat.com/products/openjdk/">
+              Red Hat build of OpenJDK
+            </a>
+        </li>
+                <li>
+            <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Runtimes" data-analytics-text="Red Hat build of Quarkus" href="https://access.redhat.com/products/quarkus/">
+              Red Hat build of Quarkus
+            </a>
+        </li>
+      </ul>
+    </div>
+
+    <h3 slot="details-nav">
+              Integration and Automation
+          </h3>
+    <div slot="details">
+      <ul class="border-bottom" id="portal-menu-border-bottom">
+        <li>
+          <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Integration and Automation" data-analytics-text="Red Hat Integration" href="https://access.redhat.com/products/red-hat-integration/">
+            Red Hat Integration
+          </a>
+        </li>
+        <li>
+          <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Integration and Automation" data-analytics-text="Red Hat Fuse" href="https://access.redhat.com/products/red-hat-fuse/">
+            Red Hat Fuse
+          </a>
+        </li>
+        <li>
+          <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Integration and Automation" data-analytics-text="Red Hat AMQ" href="https://access.redhat.com/products/red-hat-amq/">
+            Red Hat AMQ
+          </a>
+        </li>
+        <li>
+          <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Integration and Automation" data-analytics-text="Red Hat 3scale API Management" href="https://access.redhat.com/products/red-hat-3scale/">
+            Red Hat 3scale API Management
+          </a>
+        </li>
+        <li>
+          <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Integration and Automation" data-analytics-text="Red Hat JBoss Data Virtualization" href="https://access.redhat.com/products/red-hat-jboss-data-virtualization/">
+            Red Hat JBoss Data Virtualization
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Integration and Automation" data-analytics-text="Red Hat Process Automation" href="https://access.redhat.com/products/red-hat-process-automation/">
+            Red Hat Process Automation
+          </a>
+        </li>
+        <li>
+          <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Integration and Automation" data-analytics-text="Red Hat Process Automation Manager" href="https://access.redhat.com/products/red-hat-process-automation-manager/">
+            Red Hat Process Automation Manager
+          </a>
+        </li>
+        <li>
+          <a data-analytics-level="3" data-analytics-category="Products and Services|Products:Integration and Automation" data-analytics-text="Red Hat Decision Manager" href="https://access.redhat.com/products/red-hat-decision-manager/">
+            Red Hat Decision Manager
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div slot="details-nav--footer">
+      <pfe-cta pfe-priority="primary">
+        <a href="https://access.redhat.com/products/" class="pfe-navigation__menu-link" data-analytics-level="2" data-analytics-text="All Products" data-analytics-category="Products and Services|Products:" data-analytics-linkType="cta">
+          All Products
+        </a>
+      </pfe-cta>
+    </div>
+  </pfe-primary-detail>
+
+  <div slot="secondary-links" class="pfe-navigation__site-switcher">
+    <button class="pfe-navigation__secondary-link">
+      <pfe-icon icon="web-icon-grid-3x3" size="sm" aria-hidden="true"></pfe-icon>
+      All Red Hat
+    </button>
+    <pfe-navigation-dropdown dropdown-width="full">
+      <site-switcher></site-switcher>
+    </pfe-navigation-dropdown>
+  </div>
+
+</pfe-navigation>
+
+<div id="scroll-anchor"></div>
+            <!--[if IE 8]>
+            <div class="portal-messages">
+                <div class="alert alert-warning alert-portal alert-w-icon">
+                    <span class="icon-warning alert-icon" aria-hidden="true"></span>
+                    You are using an unsupported web browser. Update to a supported browser for the best experience. <a href="/announcements/2120951">Read the announcement</a>.
+                </div>
+            </div>
+            <![endif]-->
+            <!--[if IE 9]>
+            <div class="portal-messages">
+                <div class="alert alert-warning alert-portal alert-w-icon">
+                    <span class="icon-warning alert-icon" aria-hidden="true"></span>
+                    As of March 1, 2016, the Red Hat Customer Portal will no longer support Internet Explorer 9. See our new <a href="/help/browsers">browser support policy</a> for more information.
+                </div>
+            </div>
+            <![endif]-->
+            <div id="site-section"></div>
+        </header>
+        <!--googleon: all-->
+
+        <main id="cp-main" class="portal-content-area">
+            <div id="cp-content" class="main-content">
+<!-- /CP_PRIMER_HEADER -->
+
+      <div class="container">
+        
+
+                                                                        <script>breadcrumbs = [["Products & Services","\/products\/"],["Product Documentation","\/documentation"],["Red Hat Insights","\/documentation\/en-us\/red_hat_insights"],["2022","\/documentation\/en-us\/red_hat_insights\/2022"]]</script>
+
+<div data-drupal-messages-fallback class="hidden"></div>
+
+
+    </div>
+        <div class="container">
+        
+
+    
+
+  <h1 class="headline headline-md heading-thin" title="Product Documentation for Red Hat Insights 2022">Product Documentation for Red Hat Insights 2022</h1>
+
+
+<div class="band band-narrow band-last band-first browse-minimal">
+      <div class="row push-top">
+      <div class="col-md-3 search-facets">
+                  <h2 class="subheading">Select</h2>
+          
+
+  <div class="search-facet-group search-facet-product">
+  <h3 class="group-heading">Product</h3>
+      <ul class="list-checkboxes">
+      <li><label><input type="checkbox" disabled checked>Red Hat Insights</label></li>
+    </ul>
+        <a href="/documentation"><span class="icon-caret-left" aria-hidden="true"></span>&nbsp; View Another Product</a>
+  </div>
+
+
+
+  <div class="search-facet-group search-facet-version">
+  <h3 class="group-heading">Product Version</h3>
+  <div class="search-facet-wrapper">
+    <ul class="list-checkboxes version-list">
+              <li>
+          <label>2022<input type="radio" class="versionFilter status-stable" value="/documentation/en-us/red_hat_insights/2022" name="versionRadio" checked="checked"></label>
+        </li>
+          </ul>
+  </div>
+</div>
+
+
+
+  <div class="search-facet-group search-facet-category">
+  <h3 class="group-heading">Category</h3>
+  <div class="search-facet-wrapper">
+    <ul class="list-checkboxes category-list">
+              <li>
+          <label>Deployment<input type="checkbox" class="categoryFilter" value="c3ad15b3-0094-4f29-ad47-3efd0e9ea47a"></label>
+        </li>
+              <li>
+          <label>Administration<input type="checkbox" class="categoryFilter" value="12d7fa5d-b7bd-46f5-a253-c403ab39671d"></label>
+        </li>
+              <li>
+          <label>Advisor<input type="checkbox" class="categoryFilter" value="cb5f22eb-964e-4283-97ea-471c6f30f3eb"></label>
+        </li>
+              <li>
+          <label>Compliance<input type="checkbox" class="categoryFilter" value="ca45c710-8d1e-4ab2-8729-bd1523827974"></label>
+        </li>
+              <li>
+          <label>Drift Analysis / System Comparison<input type="checkbox" class="categoryFilter" value="741c7f1f-8dbf-403e-a14d-2fece8b33064"></label>
+        </li>
+              <li>
+          <label>Malware<input type="checkbox" class="categoryFilter" value="5602aab5-f7d3-4f2c-b006-51b055aecc14"></label>
+        </li>
+              <li>
+          <label>Patch<input type="checkbox" class="categoryFilter" value="76f1bca6-e51d-44b2-8a89-5468c4e92b11"></label>
+        </li>
+              <li>
+          <label>Policies<input type="checkbox" class="categoryFilter" value="254cd6e7-d71c-436f-a5aa-d252522ba1e4"></label>
+        </li>
+              <li>
+          <label>Resource Optimization<input type="checkbox" class="categoryFilter" value="29d2b8a3-3f0b-4ca2-9d05-47f4f1502f2b"></label>
+        </li>
+              <li>
+          <label>Subscriptions<input type="checkbox" class="categoryFilter" value="6aabd706-fc2d-47ec-9869-5dd7fcb4c96f"></label>
+        </li>
+              <li>
+          <label>Vulnerability<input type="checkbox" class="categoryFilter" value="41a3ce69-172c-4e8f-aa15-c0c4672499bc"></label>
+        </li>
+              <li>
+          <label>Reference<input type="checkbox" class="categoryFilter" value="bd5cfd64-5967-45f1-8b97-57c91acc373d"></label>
+        </li>
+              <li>
+          <label>Hybrid Cloud Console<input type="checkbox" class="categoryFilter" value="75783ba6-fafd-4b54-9e84-2fefd6e457c7"></label>
+        </li>
+          </ul>
+  </div>
+</div>
+
+
+
+  <div class="search-facet-group search-facet-language">
+  <h3 class="group-heading">Language</h3>
+  <div class="search-facet-wrapper dropdown-select">
+    <select>
+              <option value="/documentation/en-us/red_hat_insights/2022" selected="selected">English</option>
+              <option value="/documentation/ko-kr/red_hat_insights/2022">한국어</option>
+              <option value="/documentation/zh-cn/red_hat_insights/2022">简体中文</option>
+              <option value="/documentation/ja-jp/red_hat_insights/2022">日本語</option>
+              <option value="/documentation/es-es/red_hat_insights/2022">Español</option>
+              <option value="/documentation/ru-ru/red_hat_insights/2022">Русский</option>
+              <option value="/documentation/pt-br/red_hat_insights/2022">Português</option>
+              <option value="/documentation/it-it/red_hat_insights/2022">Italian</option>
+              <option value="/documentation/de-de/red_hat_insights/2022">Deutsch</option>
+              <option value="/documentation/fr-fr/red_hat_insights/2022">Français</option>
+              <option value="/documentation/zh-tw/red_hat_insights/2022">繁體中文</option>
+          </select>
+  </div>
+</div>
+
+
+              </div>
+      <div class="col-md-9">
+                  
+
+  <div class="list-results-group category c3ad15b3-0094-4f29-ad47-3efd0e9ea47a">
+  <h2 id="category-security" class="list-results-heading">Deployment</h2>
+        <ul class="list-results list-results-divided">
+              <li class="list-result list-result-documentation title-link 4ba3d07e-ed22-4472-b937-d497033179fd">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/release_notes">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/release_notes">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/release_notes/Red_Hat_Insights-2022-Release_Notes-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/release_notes/Red_Hat_Insights-2022-Release_Notes-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/release_notes">Release Notes</a></h3>
+                      <div class="list-result-excerpt">
+              Release Notes for Red Hat Insights
+            </div>
+                  </li>
+              <li class="list-result list-result-documentation title-link c95bef79-035f-4a63-91f3-13257bc2567d">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/client_configuration_guide_for_red_hat_insights">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/client_configuration_guide_for_red_hat_insights">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/client_configuration_guide_for_red_hat_insights/Red_Hat_Insights-2022-Client_Configuration_Guide_for_Red_Hat_Insights-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/client_configuration_guide_for_red_hat_insights/Red_Hat_Insights-2022-Client_Configuration_Guide_for_Red_Hat_Insights-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/client_configuration_guide_for_red_hat_insights">Client Configuration Guide for Red Hat Insights</a></h3>
+                      <div class="list-result-excerpt">
+              Configuration options and use cases for the Insights client
+            </div>
+                  </li>
+              <li class="list-result list-result-documentation title-link 89a9a694-3b4c-46b6-90b7-4e4107a2fd04">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/deploying_red_hat_insights_on_existing_rhel_systems_managed_by_red_hat_cloud_access">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/deploying_red_hat_insights_on_existing_rhel_systems_managed_by_red_hat_cloud_access">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/deploying_red_hat_insights_on_existing_rhel_systems_managed_by_red_hat_cloud_access/Red_Hat_Insights-2022-Deploying_Red_Hat_Insights_on_existing_RHEL_systems_managed_by_Red_Hat_Cloud_Access-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/deploying_red_hat_insights_on_existing_rhel_systems_managed_by_red_hat_cloud_access/Red_Hat_Insights-2022-Deploying_Red_Hat_Insights_on_existing_RHEL_systems_managed_by_Red_Hat_Cloud_Access-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/deploying_red_hat_insights_on_existing_rhel_systems_managed_by_red_hat_cloud_access">Deploying Red Hat Insights on existing RHEL systems managed by Red Hat Cloud Access</a></h3>
+                  </li>
+              <li class="list-result list-result-documentation title-link b470ee69-4a39-480b-a057-c37128ab63bc">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/deploying_red_hat_insights_on_existing_rhel_systems_managed_by_red_hat_update_infrastructure">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/deploying_red_hat_insights_on_existing_rhel_systems_managed_by_red_hat_update_infrastructure">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/deploying_red_hat_insights_on_existing_rhel_systems_managed_by_red_hat_update_infrastructure/Red_Hat_Insights-2022-Deploying_Red_Hat_Insights_on_existing_RHEL_systems_managed_by_Red_Hat_Update_Infrastructure-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/deploying_red_hat_insights_on_existing_rhel_systems_managed_by_red_hat_update_infrastructure/Red_Hat_Insights-2022-Deploying_Red_Hat_Insights_on_existing_RHEL_systems_managed_by_Red_Hat_Update_Infrastructure-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/deploying_red_hat_insights_on_existing_rhel_systems_managed_by_red_hat_update_infrastructure">Deploying Red Hat Insights on existing RHEL systems managed by Red Hat Update Infrastructure</a></h3>
+                  </li>
+              <li class="list-result list-result-documentation title-link 3e0ba1bc-320e-4679-982b-36c4e9b92da6">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/configuring_basic_authentication_for_red_hat_insights">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/configuring_basic_authentication_for_red_hat_insights">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/configuring_basic_authentication_for_red_hat_insights/Red_Hat_Insights-2022-Configuring_Basic_Authentication_for_Red_Hat_Insights-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/configuring_basic_authentication_for_red_hat_insights/Red_Hat_Insights-2022-Configuring_Basic_Authentication_for_Red_Hat_Insights-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/configuring_basic_authentication_for_red_hat_insights">Configuring Basic Authentication for Red Hat Insights</a></h3>
+                  </li>
+          </ul>
+  </div>
+<div class="list-results-group category 12d7fa5d-b7bd-46f5-a253-c403ab39671d">
+  <h2 id="category-security" class="list-results-heading">Administration</h2>
+        <ul class="list-results list-results-divided">
+              <li class="list-result list-result-documentation title-link 64b9c021-eb07-4e10-a839-be97bbf5c210">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/using_cloud_connector_to_remediate_issues_across_your_red_hat_satellite_infrastructure">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/using_cloud_connector_to_remediate_issues_across_your_red_hat_satellite_infrastructure">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/using_cloud_connector_to_remediate_issues_across_your_red_hat_satellite_infrastructure/Red_Hat_Insights-2022-Using_Cloud_Connector_to_remediate_issues_across_your_Red_Hat_Satellite_infrastructure-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/using_cloud_connector_to_remediate_issues_across_your_red_hat_satellite_infrastructure/Red_Hat_Insights-2022-Using_Cloud_Connector_to_remediate_issues_across_your_Red_Hat_Satellite_infrastructure-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/using_cloud_connector_to_remediate_issues_across_your_red_hat_satellite_infrastructure">Using Cloud Connector to remediate issues across your Red Hat Satellite infrastructure</a></h3>
+                      <div class="list-result-excerpt">
+              A guide to remediating RHEL system issues throughout your Satellite infrastructure from the Red Hat Insights application
+            </div>
+                  </li>
+              <li class="list-result list-result-documentation title-link 4474cdda-a32c-443b-ab78-5c7fa9e6782a">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/red_hat_connector_configuration_guide">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/red_hat_connector_configuration_guide">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/red_hat_connector_configuration_guide/Red_Hat_Insights-2022-Red_Hat_Connector_Configuration_Guide-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/red_hat_connector_configuration_guide/Red_Hat_Insights-2022-Red_Hat_Connector_Configuration_Guide-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/red_hat_connector_configuration_guide">Red Hat Connector Configuration Guide</a></h3>
+                      <div class="list-result-excerpt">
+              Configuring and using the Red Hat connector feature
+            </div>
+                  </li>
+          </ul>
+  </div>
+<div class="list-results-group category cb5f22eb-964e-4283-97ea-471c6f30f3eb">
+  <h2 id="category-security" class="list-results-heading">Advisor</h2>
+        <ul class="list-results list-results-divided">
+              <li class="list-result list-result-documentation title-link 42ae0fbf-0d0a-4767-9656-9966fde730f4">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/assessing_rhel_configuration_issues_using_the_red_hat_insights_advisor_service">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/assessing_rhel_configuration_issues_using_the_red_hat_insights_advisor_service">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/assessing_rhel_configuration_issues_using_the_red_hat_insights_advisor_service/Red_Hat_Insights-2022-Assessing_RHEL_Configuration_Issues_Using_the_Red_Hat_Insights_Advisor_Service-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/assessing_rhel_configuration_issues_using_the_red_hat_insights_advisor_service/Red_Hat_Insights-2022-Assessing_RHEL_Configuration_Issues_Using_the_Red_Hat_Insights_Advisor_Service-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/assessing_rhel_configuration_issues_using_the_red_hat_insights_advisor_service">Assessing RHEL Configuration Issues Using the Red Hat Insights Advisor Service</a></h3>
+                      <div class="list-result-excerpt">
+              Assess and monitor the configuration issues impacting your RHEL systems
+            </div>
+                  </li>
+              <li class="list-result list-result-documentation title-link 0804e9eb-fc6d-4db5-aa5e-0e8093e6a861">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/remediating_configuration_issues_using_advisor_and_ansible_playbooks">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/remediating_configuration_issues_using_advisor_and_ansible_playbooks">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/remediating_configuration_issues_using_advisor_and_ansible_playbooks/Red_Hat_Insights-2022-Remediating_Configuration_Issues_Using_Advisor_and_Ansible_Playbooks-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/remediating_configuration_issues_using_advisor_and_ansible_playbooks/Red_Hat_Insights-2022-Remediating_Configuration_Issues_Using_Advisor_and_Ansible_Playbooks-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/remediating_configuration_issues_using_advisor_and_ansible_playbooks">Remediating Configuration Issues Using Advisor and Ansible Playbooks</a></h3>
+                      <div class="list-result-excerpt">
+              Create playbooks in the advisor service to run with your Ansible workflow
+            </div>
+                  </li>
+              <li class="list-result list-result-documentation title-link 7e04b6e2-789c-4a51-b02f-d6246269a01c">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/generating_advisor_service_reports">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/generating_advisor_service_reports">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/generating_advisor_service_reports/Red_Hat_Insights-2022-Generating_Advisor_Service_Reports-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/generating_advisor_service_reports/Red_Hat_Insights-2022-Generating_Advisor_Service_Reports-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/generating_advisor_service_reports">Generating Advisor Service Reports</a></h3>
+                      <div class="list-result-excerpt">
+              Share reporting from advisor about the conditions affecting your RHEL infrastructure.
+            </div>
+                  </li>
+          </ul>
+  </div>
+<div class="list-results-group category ca45c710-8d1e-4ab2-8729-bd1523827974">
+  <h2 id="category-security" class="list-results-heading">Compliance</h2>
+        <ul class="list-results list-results-divided">
+              <li class="list-result list-result-documentation title-link 0f1b1b04-acb5-4315-a6ca-af3f950dbe93">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/assessing_and_monitoring_security_policy_compliance_of_rhel_systems">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/assessing_and_monitoring_security_policy_compliance_of_rhel_systems">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/assessing_and_monitoring_security_policy_compliance_of_rhel_systems/Red_Hat_Insights-2022-Assessing_and_Monitoring_Security_Policy_Compliance_of_RHEL_Systems-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/assessing_and_monitoring_security_policy_compliance_of_rhel_systems/Red_Hat_Insights-2022-Assessing_and_Monitoring_Security_Policy_Compliance_of_RHEL_Systems-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/assessing_and_monitoring_security_policy_compliance_of_rhel_systems">Assessing and Monitoring Security Policy Compliance of RHEL Systems</a></h3>
+                      <div class="list-result-excerpt">
+              Understanding the Security Compliance Status of your Red Hat Enterprise Linux Infrastructure
+            </div>
+                  </li>
+              <li class="list-result list-result-documentation title-link 1a1071d4-c1de-4ea6-85df-7e98230c5967">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/remediating_security-policy_compliance_issues_using_ansible_playbooks">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/remediating_security-policy_compliance_issues_using_ansible_playbooks">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/remediating_security-policy_compliance_issues_using_ansible_playbooks/Red_Hat_Insights-2022-Remediating_Security-Policy_Compliance_issues_using_Ansible_Playbooks-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/remediating_security-policy_compliance_issues_using_ansible_playbooks/Red_Hat_Insights-2022-Remediating_Security-Policy_Compliance_issues_using_Ansible_Playbooks-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/remediating_security-policy_compliance_issues_using_ansible_playbooks">Remediating Security-Policy Compliance issues using Ansible Playbooks</a></h3>
+                      <div class="list-result-excerpt">
+              Create playbooks to fix security-policy issues and automate your way to RHEL infrastructure compliance
+            </div>
+                  </li>
+              <li class="list-result list-result-documentation title-link ec30d4f7-d89d-44fa-bcc3-f0b8f47832b6">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/generating_compliance_service_reports">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/generating_compliance_service_reports">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/generating_compliance_service_reports/Red_Hat_Insights-2022-Generating_Compliance_Service_Reports-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/generating_compliance_service_reports/Red_Hat_Insights-2022-Generating_Compliance_Service_Reports-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/generating_compliance_service_reports">Generating Compliance Service Reports</a></h3>
+                      <div class="list-result-excerpt">
+              Communicate the compliance status of your RHEL infrastructure to security stakeholders
+            </div>
+                  </li>
+          </ul>
+  </div>
+<div class="list-results-group category 741c7f1f-8dbf-403e-a14d-2fece8b33064">
+  <h2 id="category-security" class="list-results-heading">Drift Analysis / System Comparison</h2>
+        <ul class="list-results list-results-divided">
+              <li class="list-result list-result-documentation title-link 5a0558ff-ded9-4396-bfc9-c03b0ec5347e">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/comparing_system_configurations_and_baselines_in_red_hat_insights_inventory">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/comparing_system_configurations_and_baselines_in_red_hat_insights_inventory">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/comparing_system_configurations_and_baselines_in_red_hat_insights_inventory/Red_Hat_Insights-2022-Comparing_System_Configurations_and_Baselines_in_Red_Hat_Insights_Inventory-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/comparing_system_configurations_and_baselines_in_red_hat_insights_inventory/Red_Hat_Insights-2022-Comparing_System_Configurations_and_Baselines_in_Red_Hat_Insights_Inventory-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/comparing_system_configurations_and_baselines_in_red_hat_insights_inventory">Comparing System Configurations and Baselines in Red Hat Insights Inventory</a></h3>
+                      <div class="list-result-excerpt">
+              Using drift service comparisons and baselines for system analysis
+            </div>
+                  </li>
+              <li class="list-result list-result-documentation title-link 660644fb-599f-47b2-b45c-630246e4f71a">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/ensuring_approved_packages_are_installed_across_system_profiles_using_the_drift_service">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/ensuring_approved_packages_are_installed_across_system_profiles_using_the_drift_service">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/ensuring_approved_packages_are_installed_across_system_profiles_using_the_drift_service/Red_Hat_Insights-2022-Ensuring_Approved_Packages_Are_Installed_Across_System_Profiles_Using_the_Drift_Service-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/ensuring_approved_packages_are_installed_across_system_profiles_using_the_drift_service/Red_Hat_Insights-2022-Ensuring_Approved_Packages_Are_Installed_Across_System_Profiles_Using_the_Drift_Service-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/ensuring_approved_packages_are_installed_across_system_profiles_using_the_drift_service">Ensuring Approved Packages Are Installed Across System Profiles Using the Drift Service</a></h3>
+                      <div class="list-result-excerpt">
+              How to validate that approved packages are installed across system profiles and generate reports
+            </div>
+                  </li>
+              <li class="list-result list-result-documentation title-link 6fd8015c-fc36-48a7-bb11-552ea6fcfefd">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/troubleshooting_operational_issues_using_system_comparison">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/troubleshooting_operational_issues_using_system_comparison">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/troubleshooting_operational_issues_using_system_comparison/Red_Hat_Insights-2022-Troubleshooting_Operational_Issues_Using_System_Comparison-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/troubleshooting_operational_issues_using_system_comparison/Red_Hat_Insights-2022-Troubleshooting_Operational_Issues_Using_System_Comparison-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/troubleshooting_operational_issues_using_system_comparison">Troubleshooting Operational Issues Using System Comparison</a></h3>
+                      <div class="list-result-excerpt">
+              How to identify operational issues in systems and generate reports
+            </div>
+                  </li>
+              <li class="list-result list-result-documentation title-link ea258312-7d9b-408f-af23-df1d3d7472c3">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/system_comparison_api_documentation">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/system_comparison_api_documentation">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/system_comparison_api_documentation/Red_Hat_Insights-2022-System_Comparison_API_Documentation-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/system_comparison_api_documentation/Red_Hat_Insights-2022-System_Comparison_API_Documentation-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/system_comparison_api_documentation">System Comparison API Documentation</a></h3>
+                      <div class="list-result-excerpt">
+              Using the REST API for the Insights for RHEL drift service
+            </div>
+                  </li>
+          </ul>
+  </div>
+<div class="list-results-group category 5602aab5-f7d3-4f2c-b006-51b055aecc14">
+  <h2 id="category-security" class="list-results-heading">Malware</h2>
+        <ul class="list-results list-results-divided">
+              <li class="list-result list-result-documentation title-link 0ef161cd-417a-412f-a47c-14d36b63bb2c">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/assessing_and_reporting_malware_signatures_on_rhel_systems_with_the_insights_for_rhel_malware_service">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/assessing_and_reporting_malware_signatures_on_rhel_systems_with_the_insights_for_rhel_malware_service">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/assessing_and_reporting_malware_signatures_on_rhel_systems_with_the_insights_for_rhel_malware_service/Red_Hat_Insights-2022-Assessing_and_Reporting_Malware_Signatures_on_RHEL_Systems_with_the_Insights_for_RHEL_Malware_Service-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/assessing_and_reporting_malware_signatures_on_rhel_systems_with_the_insights_for_rhel_malware_service/Red_Hat_Insights-2022-Assessing_and_Reporting_Malware_Signatures_on_RHEL_Systems_with_the_Insights_for_RHEL_Malware_Service-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/assessing_and_reporting_malware_signatures_on_rhel_systems_with_the_insights_for_rhel_malware_service">Assessing and Reporting Malware Signatures on RHEL Systems with the Insights for RHEL Malware Service</a></h3>
+                      <div class="list-result-excerpt">
+              Know when systems in your RHEL infrastructure are exposed to malware risks
+            </div>
+                  </li>
+          </ul>
+  </div>
+<div class="list-results-group category 76f1bca6-e51d-44b2-8a89-5468c4e92b11">
+  <h2 id="category-security" class="list-results-heading">Patch</h2>
+        <ul class="list-results list-results-divided">
+              <li class="list-result list-result-documentation title-link bf0fa858-7129-4c26-857d-0d9c0efda24a">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/system_patching_using_ansible_playbooks_via_remediations">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/system_patching_using_ansible_playbooks_via_remediations">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/system_patching_using_ansible_playbooks_via_remediations/Red_Hat_Insights-2022-System_Patching_Using_Ansible_Playbooks_via_Remediations-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/system_patching_using_ansible_playbooks_via_remediations/Red_Hat_Insights-2022-System_Patching_Using_Ansible_Playbooks_via_Remediations-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/system_patching_using_ansible_playbooks_via_remediations">System Patching Using Ansible Playbooks via Remediations</a></h3>
+                      <div class="list-result-excerpt">
+              How to review applicable advisories and affected systems and remediate using Ansible playbooks
+            </div>
+                  </li>
+          </ul>
+  </div>
+<div class="list-results-group category 254cd6e7-d71c-436f-a5aa-d252522ba1e4">
+  <h2 id="category-security" class="list-results-heading">Policies</h2>
+        <ul class="list-results list-results-divided">
+              <li class="list-result list-result-documentation title-link 6d2adf1c-f8a3-4e35-a36f-5abdbe2cdf94">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/monitoring_and_reacting_to_configuration_changes_using_policies">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/monitoring_and_reacting_to_configuration_changes_using_policies">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/monitoring_and_reacting_to_configuration_changes_using_policies/Red_Hat_Insights-2022-Monitoring_and_Reacting_to_Configuration_Changes_Using_Policies-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/monitoring_and_reacting_to_configuration_changes_using_policies/Red_Hat_Insights-2022-Monitoring_and_Reacting_to_Configuration_Changes_Using_Policies-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/monitoring_and_reacting_to_configuration_changes_using_policies">Monitoring and Reacting to Configuration Changes Using Policies</a></h3>
+                      <div class="list-result-excerpt">
+              How to create policies to detect inventory configuration changes and send email notifications
+            </div>
+                  </li>
+          </ul>
+  </div>
+<div class="list-results-group category 29d2b8a3-3f0b-4ca2-9d05-47f4f1502f2b">
+  <h2 id="category-security" class="list-results-heading">Resource Optimization</h2>
+        <ul class="list-results list-results-divided">
+              <li class="list-result list-result-documentation title-link 4682f9c1-5893-4df5-bdb9-63cdb7272192">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/assessing_and_monitoring_rhel_resource_optimization_with_insights_for_red_hat_enterprise_linux">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/assessing_and_monitoring_rhel_resource_optimization_with_insights_for_red_hat_enterprise_linux">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/assessing_and_monitoring_rhel_resource_optimization_with_insights_for_red_hat_enterprise_linux/Red_Hat_Insights-2022-Assessing_and_Monitoring_RHEL_Resource_Optimization_with_Insights_for_Red_Hat_Enterprise_Linux-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/assessing_and_monitoring_rhel_resource_optimization_with_insights_for_red_hat_enterprise_linux/Red_Hat_Insights-2022-Assessing_and_Monitoring_RHEL_Resource_Optimization_with_Insights_for_Red_Hat_Enterprise_Linux-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/assessing_and_monitoring_rhel_resource_optimization_with_insights_for_red_hat_enterprise_linux">Assessing and Monitoring RHEL Resource Optimization with Insights for Red Hat Enterprise Linux</a></h3>
+                      <div class="list-result-excerpt">
+              Understanding RHEL resource-usage statistics
+            </div>
+                  </li>
+          </ul>
+  </div>
+<div class="list-results-group category 6aabd706-fc2d-47ec-9869-5dd7fcb4c96f">
+  <h2 id="category-security" class="list-results-heading">Subscriptions</h2>
+        <ul class="list-results list-results-divided">
+              <li class="list-result list-result-documentation title-link ">
+                    <h3 class="list-result-title heading-inline"><a href="https://access.redhat.com/documentation/en-us/subscription_central/2021">Subscription Central Documentation</a></h3>
+                      <div class="list-result-excerpt">
+              Learn about subscriptions tools on the Red Hat Hybrid Cloud Console
+            </div>
+                  </li>
+          </ul>
+  </div>
+<div class="list-results-group category 41a3ce69-172c-4e8f-aa15-c0c4672499bc">
+  <h2 id="category-security" class="list-results-heading">Vulnerability</h2>
+        <ul class="list-results list-results-divided">
+              <li class="list-result list-result-documentation title-link 96c02278-c1ef-46c6-97b8-0a0c1e4fe131">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/assessing_and_monitoring_security_vulnerabilities_on_rhel_systems">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/assessing_and_monitoring_security_vulnerabilities_on_rhel_systems">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/assessing_and_monitoring_security_vulnerabilities_on_rhel_systems/Red_Hat_Insights-2022-Assessing_and_Monitoring_Security_Vulnerabilities_on_RHEL_Systems-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/assessing_and_monitoring_security_vulnerabilities_on_rhel_systems/Red_Hat_Insights-2022-Assessing_and_Monitoring_Security_Vulnerabilities_on_RHEL_Systems-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/assessing_and_monitoring_security_vulnerabilities_on_rhel_systems">Assessing and Monitoring Security Vulnerabilities on RHEL Systems</a></h3>
+                      <div class="list-result-excerpt">
+              Understanding your Environmental Exposure to Potential Security Threats
+            </div>
+                  </li>
+              <li class="list-result list-result-documentation title-link 4486cfd6-1841-4c52-b9cc-b582a923d3ab">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/remediating_security_exposures_using_the_vulnerability_service_and_ansible_playbooks">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/remediating_security_exposures_using_the_vulnerability_service_and_ansible_playbooks">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/remediating_security_exposures_using_the_vulnerability_service_and_ansible_playbooks/Red_Hat_Insights-2022-Remediating_Security_Exposures_Using_the_Vulnerability_Service_and_Ansible_Playbooks-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/remediating_security_exposures_using_the_vulnerability_service_and_ansible_playbooks/Red_Hat_Insights-2022-Remediating_Security_Exposures_Using_the_Vulnerability_Service_and_Ansible_Playbooks-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/remediating_security_exposures_using_the_vulnerability_service_and_ansible_playbooks">Remediating Security Exposures Using the Vulnerability Service and Ansible Playbooks</a></h3>
+                      <div class="list-result-excerpt">
+              Automate the Remediation of CVE Security Vulnerabilities in RHEL Environments
+            </div>
+                  </li>
+              <li class="list-result list-result-documentation title-link 69f17271-1da9-4974-81d1-e79077b74e98">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html-single/generating_vulnerability_service_reports">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/html/generating_vulnerability_service_reports">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/epub/generating_vulnerability_service_reports/Red_Hat_Insights-2022-Generating_Vulnerability_Service_Reports-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_insights/2022/pdf/generating_vulnerability_service_reports/Red_Hat_Insights-2022-Generating_Vulnerability_Service_Reports-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_insights/2022/html/generating_vulnerability_service_reports">Generating Vulnerability Service Reports</a></h3>
+                      <div class="list-result-excerpt">
+              Communicate the Exposure of RHEL Systems to CVE Security Vulnerabilities
+            </div>
+                  </li>
+          </ul>
+  </div>
+<div class="list-results-group category bd5cfd64-5967-45f1-8b97-57c91acc373d">
+  <h2 id="category-security" class="list-results-heading">Reference</h2>
+        <ul class="list-results list-results-divided">
+              <li class="list-result list-result-documentation title-link ">
+                    <h3 class="list-result-title heading-inline"><a href="https://console.redhat.com/docs/api">Insights API Reference Guides</a></h3>
+                      <div class="list-result-excerpt">
+              Reference Information for Red Hat Insights APIs (account login required)
+            </div>
+                  </li>
+          </ul>
+  </div>
+<div class="list-results-group category 75783ba6-fafd-4b54-9e84-2fefd6e457c7">
+  <h2 id="category-security" class="list-results-heading">Hybrid Cloud Console</h2>
+        <ul class="list-results list-results-divided">
+              <li class="list-result list-result-documentation title-link e7fca8f9-c41e-4509-b2a7-1ca05688a029">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_hybrid_cloud_console/2022/html-single/user_access_configuration_guide_for_role-based_access_control_rbac">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_hybrid_cloud_console/2022/html/user_access_configuration_guide_for_role-based_access_control_rbac">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_hybrid_cloud_console/2022/epub/user_access_configuration_guide_for_role-based_access_control_rbac/Red_Hat_Hybrid_Cloud_Console-2022-User_Access_Configuration_Guide_for_Role-based_Access_Control_RBAC-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_hybrid_cloud_console/2022/pdf/user_access_configuration_guide_for_role-based_access_control_rbac/Red_Hat_Hybrid_Cloud_Console-2022-User_Access_Configuration_Guide_for_Role-based_Access_Control_RBAC-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_hybrid_cloud_console/2022/html/user_access_configuration_guide_for_role-based_access_control_rbac">User Access Configuration Guide for Role-based Access Control (RBAC)</a></h3>
+                  </li>
+              <li class="list-result list-result-documentation title-link f2c66639-2519-42c0-bb81-82a519e2dc33">
+                    <div class="pull-right dropdown">
+            <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available Formats<span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                              <li><a href="/documentation/en-us/red_hat_hybrid_cloud_console/2022/html-single/configuring_notifications_and_integrations_on_the_red_hat_hybrid_cloud_console">Single-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_hybrid_cloud_console/2022/html/configuring_notifications_and_integrations_on_the_red_hat_hybrid_cloud_console">Multi-page HTML</a></li>
+                              <li><a href="/documentation/en-us/red_hat_hybrid_cloud_console/2022/epub/configuring_notifications_and_integrations_on_the_red_hat_hybrid_cloud_console/Red_Hat_Hybrid_Cloud_Console-2022-Configuring_notifications_and_integrations_on_the_Red_Hat_Hybrid_Cloud_Console-en-US.epub">ePub</a></li>
+                              <li><a href="/documentation/en-us/red_hat_hybrid_cloud_console/2022/pdf/configuring_notifications_and_integrations_on_the_red_hat_hybrid_cloud_console/Red_Hat_Hybrid_Cloud_Console-2022-Configuring_notifications_and_integrations_on_the_Red_Hat_Hybrid_Cloud_Console-en-US.pdf">PDF</a></li>
+                          </ul>
+          </div>
+                    <h3 class="list-result-title heading-inline"><a href="/documentation/en-us/red_hat_hybrid_cloud_console/2022/html/configuring_notifications_and_integrations_on_the_red_hat_hybrid_cloud_console">Configuring notifications and integrations on the Red Hat Hybrid Cloud Console</a></h3>
+                      <div class="list-result-excerpt">
+              Configuring Hybrid Cloud Console settings so that account users receive event-triggered notifications about RHEL systems
+            </div>
+                  </li>
+          </ul>
+  </div>
+
+
+
+  
+
+              </div>
+    </div>
+  </div>
+
+
+
+    </div>
+      <!-- CP_PRIMER_FOOTER -->
+            </div>
+        </main>
+    </div>
+    <!--googleoff: all-->
+    <div id="to-top"><a class="btn_slideto" href="#masthead" aria-label="Back to Top"><span class="web-icon-upload"></span></a></div>
+    <footer class="footer-main">
+        <div class="footer-top">
+            <div class="container">
+
+              <div class="brand">
+                <a href="https://redhat.com">
+                  <svg class="rh-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 613 145">
+                    <defs>
+                      <style>
+                        .rh-logo-hat {
+                          fill: #e00;
+                        }
+                        .rh-logo-type {
+                          fill: #fff;
+                        }
+                      </style>
+                    </defs>
+                    <title>Red Hat</title>
+                    <path
+                      class="rh-logo-hat"
+                      d="M127.47,83.49c12.51,0,30.61-2.58,30.61-17.46a14,14,0,0,0-.31-3.42l-7.45-32.36c-1.72-7.12-3.23-10.35-15.73-16.6C124.89,8.69,103.76.5,97.51.5,91.69.5,90,8,83.06,8c-6.68,0-11.64-5.6-17.89-5.6-6,0-9.91,4.09-12.93,12.5,0,0-8.41,23.72-9.49,27.16A6.43,6.43,0,0,0,42.53,44c0,9.22,36.3,39.45,84.94,39.45M160,72.07c1.73,8.19,1.73,9.05,1.73,10.13,0,14-15.74,21.77-36.43,21.77C78.54,104,37.58,76.6,37.58,58.49a18.45,18.45,0,0,1,1.51-7.33C22.27,52,.5,55,.5,74.22c0,31.48,74.59,70.28,133.65,70.28,45.28,0,56.7-20.48,56.7-36.65,0-12.72-11-27.16-30.83-35.78"/>
+                      <path class="rh-logo-band"
+                      d="M160,72.07c1.73,8.19,1.73,9.05,1.73,10.13,0,14-15.74,21.77-36.43,21.77C78.54,104,37.58,76.6,37.58,58.49a18.45,18.45,0,0,1,1.51-7.33l3.66-9.06A6.43,6.43,0,0,0,42.53,44c0,9.22,36.3,39.45,84.94,39.45,12.51,0,30.61-2.58,30.61-17.46a14,14,0,0,0-.31-3.42Z"/>
+                      <path
+                      class="rh-logo-type"
+                      d="M579.74,92.8c0,11.89,7.15,17.67,20.19,17.67a52.11,52.11,0,0,0,11.89-1.68V95a24.84,24.84,0,0,1-7.68,1.16c-5.37,0-7.36-1.68-7.36-6.73V68.3h15.56V54.1H596.78v-18l-17,3.68V54.1H568.49V68.3h11.25Zm-53,.32c0-3.68,3.69-5.47,9.26-5.47a43.12,43.12,0,0,1,10.1,1.26v7.15a21.51,21.51,0,0,1-10.63,2.63c-5.46,0-8.73-2.1-8.73-5.57m5.2,17.56c6,0,10.84-1.26,15.36-4.31v3.37h16.82V74.08c0-13.56-9.14-21-24.39-21-8.52,0-16.94,2-26,6.1l6.1,12.52c6.52-2.74,12-4.42,16.83-4.42,7,0,10.62,2.73,10.62,8.31v2.73a49.53,49.53,0,0,0-12.62-1.58c-14.31,0-22.93,6-22.93,16.73,0,9.78,7.78,17.24,20.19,17.24m-92.44-.94h18.09V80.92h30.29v28.82H506V36.12H487.93V64.41H457.64V36.12H439.55ZM370.62,81.87c0-8,6.31-14.1,14.62-14.1A17.22,17.22,0,0,1,397,72.09V91.54A16.36,16.36,0,0,1,385.24,96c-8.2,0-14.62-6.1-14.62-14.09m26.61,27.87h16.83V32.44l-17,3.68V57.05a28.3,28.3,0,0,0-14.2-3.68c-16.19,0-28.92,12.51-28.92,28.5a28.25,28.25,0,0,0,28.4,28.6,25.12,25.12,0,0,0,14.93-4.83ZM320,67c5.36,0,9.88,3.47,11.67,8.83H308.47C310.15,70.3,314.36,67,320,67M291.33,82c0,16.2,13.25,28.82,30.28,28.82,9.36,0,16.2-2.53,23.25-8.42l-11.26-10c-2.63,2.74-6.52,4.21-11.14,4.21a14.39,14.39,0,0,1-13.68-8.83h39.65V83.55c0-17.67-11.88-30.39-28.08-30.39a28.57,28.57,0,0,0-29,28.81M262,51.58c6,0,9.36,3.78,9.36,8.31S268,68.2,262,68.2H244.11V51.58Zm-36,58.16h18.09V82.92h13.77l13.89,26.82H292l-16.2-29.45a22.27,22.27,0,0,0,13.88-20.72c0-13.25-10.41-23.45-26-23.45H226Z"/>
+                  </svg>
+                </a>
+              </div>
+
+            <div role="navigation">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a class="download-software" href="https://access.redhat.com/downloads/">Downloads</a></li>
+                    <li><a class="manage-subscriptions" href="https://access.redhat.com/management">Subscriptions</a></li>
+                    <li><a class="support-cases" href="https://access.redhat.com/support">Support Cases</a></li>
+                    <li><a class="customer-service" href="https://access.redhat.com/support/customer-service">Customer Service</a></li>
+                    <li><a class="quick-docs" href="https://access.redhat.com/documentation">Product Documentation</a></li>
+                </ul>
+            </div>
+
+            <div role="navigation">
+                <h3>Help</h3>
+                <ul>
+                    <li><a class="contact-us" href="https://access.redhat.com/support/contact/">Contact Us</a></li>
+                    <li><a class="cp-faqs" href="https://access.redhat.com/articles/33844">Customer Portal FAQ</a></li>
+                    <li><a class="login-problems" href="https://access.redhat.com/help/login_assistance">Log-in Assistance</a></li>
+                </ul>
+            </div>
+
+            <div role="navigation">
+                <h3>Site Info</h3>
+                <ul>
+                  <li><a class="trust-red-hat" href="https://www.redhat.com/en/trust">Trust Red Hat</a></li>
+                  <li><a class="browser-support-policy" href="https://www.redhat.com/en/about/browser-support">Browser Support Policy</a></li>
+                  <li><a class="accessibility" href="https://access.redhat.com/help/accessibility/">Accessibility</a></li>
+                  <li><a class="recognition" href="https://access.redhat.com/recognition/">Awards and Recognition</a></li>
+                  <li><a class="colophon" href="https://access.redhat.com/help/colophon/">Colophon</a></li>
+                </ul>
+            </div>
+
+            <div role="navigation">
+                <h3>Related Sites</h3>
+                <ul>
+                    <li><a href="https://www.redhat.com/" class="red-hat-com">redhat.com</a></li>
+                    <li><a href="http://developers.redhat.com/" class="red-hat-developers">developers.redhat.com</a></li>
+                    <li><a href="https://connect.redhat.com/" class="partner-connect">connect.redhat.com</a></li>
+                    <li><a href="https://cloud.redhat.com/" class="cloud-com">cloud.redhat.com</a></li>
+                </ul>
+            </div>
+
+            <div role="navigation">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="https://access.redhat.com/subscription-value" class="subscription-value">Red Hat Subscription Value</a></li>
+                    <li><a href="https://www.redhat.com/about/" class="about-red-hat">About Red Hat</a></li>
+                    <li><a href="http://jobs.redhat.com" class="about-jobs">Red Hat Jobs</a></li>
+                </ul>
+            </div>
+
+            </div>
+        </div>
+
+        <div class="anchor">
+            <div class="container">
+                <div class="status-legal">
+                    <a hidden href="https://status.redhat.com" class="status-page-widget">
+                          <span class="status-description"></span>
+                          <span class="status-dot shape-circle"></span>
+                    </a>
+                    <div class="legal-copyright">
+                        <div class="copyright">Copyright © 2022 Red Hat, Inc.</div>
+
+                        <div role="navigation" class="legal">
+                            <ul>
+                                <li><a href="http://www.redhat.com/en/about/privacy-policy" class="privacy-policy">Privacy Statement</a></li>
+                                <li><a href="https://access.redhat.com/help/terms/" class="terms-of-use">Customer Portal Terms of Use</a></li>
+                                <li><a href="http://www.redhat.com/en/about/all-policies-guidelines" class="all-policies">All Policies and Guidelines</a></li>
+                                <li><a id="teconsent"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="http://www.redhat.com/summit/" class="summit">
+                      <img src="https://access.redhat.com/chrome_themes/nimbus/img/rh-summit-red-a.svg" alt="Red Hat Summit" />
+                    </a>
+
+                    <div class="social-media">
+                        <a href="https://twitter.com/RedHatSupport" class="sm-icon twitter"><span class="nicon-twitter"></span><span class="offscreen">Twitter</span></a>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- TrustArc -->
+    <div id="consent_blackbar"></div> 
+    <!--googleon: all-->
+</div>
+<!-- /CP_PRIMER_FOOTER -->
+
+
+  </div>
+
+    
+  </body>
+</html>
